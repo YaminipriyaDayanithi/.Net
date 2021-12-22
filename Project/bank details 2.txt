@@ -1,0 +1,86 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+
+namespace ArrayListDemo
+{
+    class Program
+    {
+         static int age = 0;
+        private static int CalculateAge(DateTime Date_of_birth)
+        {
+
+            age = DateTime.Now.Year - Date_of_birth.Year;
+            if (DateTime.Now.DayOfYear < Date_of_birth.DayOfYear)
+            {
+                age = age - 1;
+            }
+
+            return age;
+        }
+        static void Main(string[] args)
+        {
+            /*  Console.WriteLine("Hello World!");
+              ArrayList a = new ArrayList();
+              Console.WriteLine("the count of the arraylist is : " + a.Count);
+              a.Add("Yamini");
+              Console.WriteLine("the array value is : " + a[0]);
+              Console.WriteLine("the count of the arraylist is : " + a.Count);
+
+              List<int> l = new List<int>();
+              l.Add(1);
+              Console.WriteLine(l);
+              Console.WriteLine("Element in the list : " + l[0]);
+            */
+
+
+            DateTime Date_of_birth;
+            string Name, Address, Email_id, age;
+            long Phone_number, Aadhar_card;
+            int age1;
+
+            Console.WriteLine("Welcome to Indian Bank!");
+            Console.WriteLine("Greetings.");
+
+
+            Console.WriteLine("\nEnter the Name: ");
+            Name = Console.ReadLine();
+
+            Console.WriteLine("\nPhone_number: ");
+            Phone_number = Convert.ToInt64(Console.ReadLine());
+
+            Console.WriteLine("\nAadhar_card: ");
+            Aadhar_card = Convert.ToInt64(Console.ReadLine());
+
+            Console.WriteLine("\nEnter the Address ");
+            Address = Console.ReadLine();
+
+            Console.WriteLine("\nEmail_id ");
+            Email_id = Console.ReadLine();
+
+
+            Console.WriteLine("\nDate_of_birth ");
+            Date_of_birth = Convert.ToDateTime(Console.ReadLine());
+            age1 = Program.CalculateAge(Date_of_birth);
+
+            if (age1 > 18)
+            {
+                Console.WriteLine("\nYou can create your account ");
+            }
+            else
+            {
+                Console.WriteLine("\nYour age is not sufficient for creating an account ");
+            }
+
+
+            Console.WriteLine("\n Name : " + Name);
+            Console.WriteLine(" Phone_number : " + Phone_number);
+            Console.WriteLine(" Aadhar_card : " + Aadhar_card);
+            Console.WriteLine(" Address : " + Address);
+            Console.WriteLine(" Date_of_birth : " + Date_of_birth);
+            Console.WriteLine(" Email_id : " + Email_id);
+
+
+        }
+    }
+}
