@@ -1,0 +1,14 @@
+C:\Users\yamini.dayanithi\source\repos\Dot Net\Assignment4\bin\Debug\netcoreapp3.1\Assignment5.exe
+C:\Users\yamini.dayanithi\source\repos\Dot Net\Assignment4\bin\Debug\netcoreapp3.1\Assignment5.deps.json
+C:\Users\yamini.dayanithi\source\repos\Dot Net\Assignment4\bin\Debug\netcoreapp3.1\Assignment5.runtimeconfig.json
+C:\Users\yamini.dayanithi\source\repos\Dot Net\Assignment4\bin\Debug\netcoreapp3.1\Assignment5.runtimeconfig.dev.json
+C:\Users\yamini.dayanithi\source\repos\Dot Net\Assignment4\bin\Debug\netcoreapp3.1\Assignment5.dll
+C:\Users\yamini.dayanithi\source\repos\Dot Net\Assignment4\bin\Debug\netcoreapp3.1\Assignment5.pdb
+C:\Users\yamini.dayanithi\source\repos\Dot Net\Assignment4\obj\Debug\netcoreapp3.1\Assignment5.csproj.AssemblyReference.cache
+C:\Users\yamini.dayanithi\source\repos\Dot Net\Assignment4\obj\Debug\netcoreapp3.1\Assignment5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yamini.dayanithi\source\repos\Dot Net\Assignment4\obj\Debug\netcoreapp3.1\Assignment5.AssemblyInfoInputs.cache
+C:\Users\yamini.dayanithi\source\repos\Dot Net\Assignment4\obj\Debug\netcoreapp3.1\Assignment5.AssemblyInfo.cs
+C:\Users\yamini.dayanithi\source\repos\Dot Net\Assignment4\obj\Debug\netcoreapp3.1\Assignment5.csproj.CoreCompileInputs.cache
+C:\Users\yamini.dayanithi\source\repos\Dot Net\Assignment4\obj\Debug\netcoreapp3.1\Assignment5.dll
+C:\Users\yamini.dayanithi\source\repos\Dot Net\Assignment4\obj\Debug\netcoreapp3.1\Assignment5.pdb
+C:\Users\yamini.dayanithi\source\repos\Dot Net\Assignment4\obj\Debug\netcoreapp3.1\Assignment5.genruntimeconfig.cache
